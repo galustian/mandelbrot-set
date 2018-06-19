@@ -3,10 +3,10 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 
 public class Main {
-    private static final int WIDTH = 1000;
-    private static final int HEIGHT = 750;
-    private static final int ITERATIONS = 50;
-    private static final float SCALE = 200;
+    private static final int WIDTH = 1300;
+    private static final int HEIGHT = 950;
+    private static final int ITERATIONS = 100;
+    private static final float SCALE = 300;
 
 
     public static void main(String[] args) {
