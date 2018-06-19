@@ -50,25 +50,6 @@ public class Main {
         return img;
     }
 
-    /*private static int getPointColor(float x, float y) {
-        float a_loop = x;
-        float b_loop = y;
-
-        float ac = a_loop;
-        float bc = b_loop;
-
-        int i = 0;
-        for (; i < ITERATIONS; i++) {
-            a_loop = a_loop * a_loop - b_loop * b_loop + ac;
-            b_loop = 2*a_loop*b_loop + bc;
-
-            if (a_loop*a_loop + b_loop*b_loop > 5) break;
-        }
-
-        if (i == ITERATIONS) return 0x000000;
-        return Color.HSBtoRGB((float)i / ITERATIONS, 0.5f, 1);
-    }*/
-
     private static int getPointColor(float x, float y) {
         float cx = x;
         float cy = y;
