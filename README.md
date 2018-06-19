@@ -1,2 +1,2 @@
-# mandelbrot-set
-Visualizing the mandelbrot-set.
+# Mandelbrot Set
+Visualizing the mandelbrot-set. Just compile & run the Main.java file.
